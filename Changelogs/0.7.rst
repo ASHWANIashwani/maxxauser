@@ -1,5 +1,5 @@
 ========================
-HellBot Version Update
+ASHWANIBOT Version Update
 ========================
 
 +-------------------------+
@@ -22,7 +22,7 @@ Changelog 📃 :
 * Problem in climate plugin was due to API. So no need for fixes. Now it's working fine. [Got a comment on this]
 * Bugs fixes and improved performance.
 
-Report Bugs and Suggestions in comments of `this post <https://t.me/its_hellbot/40>`_
+Report Bugs and Suggestions in comments of `this post <https://t.me/chatventure_club>`_
 =====================================================================================
 
 **📌 To update your Hêllẞø† do** ``.update build``
