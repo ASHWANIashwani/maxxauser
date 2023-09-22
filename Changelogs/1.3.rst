@@ -1,5 +1,5 @@
 ========================
-HellBot Version Update
+ASHWANIBOT Version Update
 ========================
 
 +-------------------------+
@@ -17,10 +17,9 @@ Changelog 📃 :
     - *New asyncio updater*
     - *Custom repo support*
 * **Major Updates:**
-    - **Core:** Changed HellBot's core once again for future updates.
+    - **Core:** Changed ASHWANIBOT's core once again for future updates.
      *In future:* Assistant, Voice Chat Player, Pyrogram Supported, and many more.
     - **Custom Plugins Repo:** You can now choose your own plugins repo. Add an environment variable ``GIT_REPO`` with your repo name as value.
-     *For Example:* ``GIT_REPO`` = ``HellBoy-OP/Plugins``
      
     - **Updated Configs:** Some new config variables are added to support new features.
      Types:
@@ -47,8 +46,8 @@ Changelog 📃 :
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **IMPORTANT:** *I'm planning to add pyrogram version of HellBot. Any developer who knows Pyrogram and is willing to help you're most welcome.*        |
-| *Connect with me on telegram through HellBot Support Chat. Also, I'm not expecting newbies! Someone who can code a plugin in pyrogram is good enough* |
+| **IMPORTANT:** *I'm planning to add pyrogram version of ASHWANIBOT. Any developer who knows Pyrogram and is willing to help you're most welcome.*        |
+| *Connect with me on telegram through ASHWANIBOT Support Chat. Also, I'm not expecting newbies! Someone who can code a plugin in pyrogram is good enough* |
 +-------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
