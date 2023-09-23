@@ -34,7 +34,7 @@ except:
 
 def main():
     print("T E A M    A S H W A N I B O T   ! !")
-    print("Hello!! Welcome to ASHWANIBOT Session Generator\n")
+    print("Hello!! Welcome to AshwaniBot Session Generator\n")
     print("Human Verification Required !!")
     while True:
         verify = int(randint(1, 50))
@@ -64,16 +64,16 @@ def main():
 
 def generate_hellbot_session():
     print("!!! ASHWANIBOT SESSION !!!")
-    print("One session for all ASHWANIBOT Project.")
+    print("One session for all ASHWANIBot's Project.")
     api_id = int(input("\nEnter APP ID here: "))
     api_hash = input("\nEnter API_HASH here: ")
-    with PClient(name="ashwaniuser", api_id=api_id, api_hash=api_hash, in_memory=True) as hell:
+    with PClient(name="helluser", api_id=api_id, api_hash=api_hash, in_memory=True) as hell:
         print("\nYour ASHWANIBOT SESSION is saved in your telegram saved messages.")
-        _session = ashwani.export_session_string()
-        hell_session = ashwanibot_session(_session)
+        _session = hell.export_session_string()
+        hell_session = hellbot_session(_session)
         hell.send_message(
             "me",
-            f"#ASHWANIBOT_SESSION \n\n`{ashwani_session}`",
+            f"#HELLBOT_SESSION \n\n`{hell_session}`",
         )
 
 
@@ -81,11 +81,11 @@ def generate_pyro_session():
     print("Pyrogram Session for Music Bot!")
     APP_ID = int(input("\nEnter APP ID here: "))
     API_HASH = input("\nEnter API HASH here: ")
-    with PClient(name="ashwaniuser", api_id=APP_ID, api_hash=API_HASH, in_memory=True) as hellbot:
+    with PClient(name="helluser", api_id=APP_ID, api_hash=API_HASH, in_memory=True) as hellbot:
         print("\nYour ASHWANIBOT Session Is sent in your Telegram Saved Messages.")
         hellbot.send_message(
             "me",
-            f"#ASHWANIBOT #PYROGRAM\n\n`{hellbot.export_session_string()}`",
+            f"#ASHWANIOT #PYROGRAM\n\n`{hellbot.export_session_string()}`",
         )
 
 
@@ -93,11 +93,11 @@ def generate_telethon_session():
     print("\nTelethon Session For HellBot!")
     APP_ID = int(input("\nEnter APP ID here: "))
     API_HASH = input("\nEnter API HASH here: ")
-    with TelegramClient(StringSession(), APP_ID, API_HASH) as ashwanibot:
-        print("\nYour ASHWANIBOT Session Is sent in your Telegram Saved Messages.")
+    with TelegramClient(StringSession(), APP_ID, API_HASH) as hellbot:
+        print("\nYour AshwaniBot Session Is sent in your Telegram Saved Messages.")
         hellbot.send_message(
             "me",
-            f"#HELLBOT #TELETHON \n\n`{hellbot.session.save()}`",
+            f"#ASHWANIBOT #TELETHON \n\n`{hellbot.session.save()}`",
         )
 
 
@@ -176,7 +176,7 @@ def hellbot_session(session):
                 auth_key
             )
         )
-        return f"=={ashwanibot('hell')}{new_session}{ashwanibot('bot')}=="
+        return f"=={hellbot('hell')}{new_session}{hellbot('bot')}=="
     else:
         return error_msg
 
